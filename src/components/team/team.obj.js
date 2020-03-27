@@ -21,20 +21,38 @@ export function TeamPage(props) {
 export default class TeamOverview extends React.Component {
   constructor(props) {
     super (props);
+
+
   }
 
   render() {
     return (
       <div className="team">
+        <div className="adam">
+          <TeamText data={teamData}/>
+        </div>
+        <div className="andrew"></div>
+        <div className="bharti"></div>
+        <div className="chris"></div>
+        <div className="jeff"></div>
+        <div className="kp"></div>
+        <div className="mina"></div>
+        <div className="preston"></div>
+        <div className="ruyi"></div>
+        <div className="stephen"></div>
+        <div className="trapazoidbar1"></div>
+        <div className="trapazoidbar2"></div>
+        <div className="trapazoidbar3"></div>
+        <div className="trapazoidbar4"></div>
         <div className="teamtitle">
           <p> A Global Team </p>
         </div>
-        <div className="teamtext">
+        {/* <div className="teamtext">
           <TeamText data={teamData}/>
-        </div>
-        <div className ="teamimage">
+        </div> */}
+        {/* <div className ="teamimage">
           <TeamImage />
-        </div>
+        </div> */}
       </div>
     );
   }
