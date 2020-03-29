@@ -28,9 +28,7 @@ export default class TeamOverview extends React.Component {
   render() {
     return (
       <div className="team">
-        <div className="adam">
-          <TeamText data={teamData}/>
-        </div>
+        
         <div className="andrew"></div>
         <div className="bharti"></div>
         <div className="chris"></div>
@@ -47,9 +45,9 @@ export default class TeamOverview extends React.Component {
         <div className="teamtitle">
           <p> A Global Team </p>
         </div>
-        {/* <div className="teamtext">
+        <div className="teamtext">
           <TeamText data={teamData}/>
-        </div> */}
+        </div>
         {/* <div className ="teamimage">
           <TeamImage />
         </div> */}
@@ -57,3 +55,15 @@ export default class TeamOverview extends React.Component {
     );
   }
 }
+
+const
+
+const TeamMber = (props) => (
+  return (
+    <div className="adam">
+      { props.name }
+      { props.position}
+      {teamData.members.adam.location}
+    </div>
+  )
+)
