@@ -4,10 +4,18 @@
 
 @media(min-width: $sizeDesktop) {
 
+  .html {
+    cursor: cell;
+  }
+
   .app {
     background-color: $next__blue;
     // padding: 20px;
-  }  
+  }
+
+  .app__theme__blue {
+    border: 10px gold solid;
+  }
 
   .app__navigation {
     grid-column: 1 / -1;
@@ -20,7 +28,6 @@
     grid-template-rows: repeat(10, 1fr);
     grid-gap: 20px;
   }
-
 }
 
 
